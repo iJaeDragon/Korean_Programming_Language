@@ -41,9 +41,9 @@ if(flag == true) {
 }
 ->
 만약 flag 가 true 라면?
-  반환 true;
+  결과는 true;
 또는 flag 가 false 라면?
-  반환 false;
+  결과는 false;
 아니라면?
-  반환 false;
+  결과는 false;
 ```
