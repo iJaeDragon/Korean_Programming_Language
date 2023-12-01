@@ -32,13 +32,21 @@ IDE나 편집기 제작
 ## 문법 설계
 
 if -> 만약
+
 for -> 반복
+
 function -> ?
+
 int -> 정수
+
 float -> 소수
+
 String -> 문자
+
 bool -> 사실여부
+
 true -> 사실
+
 false -> 거짓
 
 ex)
