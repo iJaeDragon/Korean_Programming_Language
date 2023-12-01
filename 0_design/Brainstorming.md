@@ -30,6 +30,17 @@ IDE나 편집기 제작
 문서 작성 
 
 ## 문법 설계
+
+if -> 만약
+for -> 반복
+function -> ?
+int -> 정수
+float -> 소수
+String -> 문자
+bool -> 사실여부
+true -> 사실
+false -> 거짓
+
 ex)
 ```
 if(flag == true) {
@@ -40,10 +51,19 @@ if(flag == true) {
   return false;
 }
 ->
-만약 flag 가 true 라면?
-  결과는 true;
-또는 flag 가 false 라면?
-  결과는 false;
+만약 flag 가 사실 이라면? // 라면과 이라면 중 혼용해서 사용가능
+  결과는 거짓;
+또는 flag 가 거짓 이라면?
+  결과는 거짓;
 아니라면?
-  결과는 false;
+  결과는 거짓;
+```
+
+ex2)
+```
+int number = 0;
+String text = "Test";
+
+정수 number = 0;
+문자 text = "Test";
 ```
