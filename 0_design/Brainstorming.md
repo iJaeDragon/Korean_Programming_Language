@@ -4,7 +4,7 @@
 
 인터프리터 언어로 개발 진행
 
-## 설계 과정 
+## 과정 
 
 언어 설계 
 
@@ -28,3 +28,22 @@ IDE나 편집기 제작
 ->
 
 문서 작성 
+
+## 문법 설계
+ex)
+```
+if(flag == true) {
+  return true;
+} else if(flag == false) {
+  return false;
+} else {
+  return false;
+}
+->
+만약 flag 가 true 라면?
+  반환 true;
+또는 flag 가 false 라면?
+  반환 false;
+아니라면?
+  반환 false;
+```
